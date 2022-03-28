@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { defineStore, Store } from 'pinia'
+import { defineStore } from 'pinia'
 import { store } from './types'
 
 axios.defaults.baseURL = "https://rickandmortyapi.com/api"
